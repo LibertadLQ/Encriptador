@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encript</title>
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Estructura de mi proyecto</h1>
+    <main>
+        <section class="contenedor1">
+            <textarea id="texto1" class="texto1" placeholder="Detective introduzca el mensaje secreto"></textarea>
+            <p class="consideraciones">Ingrese solamente letras minusculas, mayusculas o espacios</p>
+            <div class="operacion">
+                <p>Clave secreta: <span id="clave"></span></p> 
+                <p>Resultado: <input type="number" id="resultadoClave"></p>
+            </div>
+            <!--operaciones matematicas, que den como resultado del 2 al 9 -->
+            <div class="botones">
+                <button id="encriptar" class="encriptar">Encriptar</button>
+                <button id="desencriptar" class="desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="contenedor2">
+            <textarea id="texto2" class="texto2"></textarea>
+            <button id="copiar" class="copiar">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright 2024 - Todos los derechos reservados</p>
+        <p>Desarrollado por Libertad Leon</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
