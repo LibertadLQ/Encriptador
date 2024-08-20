@@ -1,0 +1,31 @@
+body{
+    background-image: url("../../Recursos/fondo4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Matemasie", sans-serif;
+}
+
+.titulo{
+    color: antiquewhite;
+}
+.padreContenedor{
+    display: flex;
+}
+.texto1{
+    height: 370px;
+    width: 570px;
+    border-radius: 24px;
+    background-color: azure;
+    padding: 20px;
+    
+}
+
+.texto2{
+    height: 370px;
+    width: 570px;
+    border-radius: 24px;
+    background-color: azure;
+    padding: 20px;
+    margin-left: 55px;
+}

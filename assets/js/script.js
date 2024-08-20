@@ -4,7 +4,7 @@ function definirClave() {
     let suma = `${numero1} + ${numero2}`; 
     document.getElementById("clave").innerHTML = suma;
     return numero1 + numero2;
-};0
+};
 let clave =  definirClave(); 
 
 function mensajeEncriptado() {
@@ -27,7 +27,6 @@ function mensajeEncriptado() {
     document.getElementById("texto2").value = textocambiado;
     //return textocambiado; 
 };
-//let msjEncriptado = mensajeEncriptado(); 
 
 function mensajeDesencriptado() {
     let texto1 = document.getElementById("texto1").value;
@@ -52,8 +51,7 @@ function validarResultado() {
     let TEXTO2 = document.getElementById("texto2").value;
     let encriptar = document.getElementById("encriptar");
     let desencriptar = document.getElementById("desencriptar");
-    //validar botones
-    //|| ()
+
     if ((usuarioResultado == clave && /^[a-zA-Z\s]+$/.test(TEXTO1)) ){
         encriptar.disabled = false; 
         desencriptar.disabled = false;
@@ -77,7 +75,6 @@ encriptar.addEventListener("click", function () {//se ejecuta cuando hagamos cli
     document.getElementById("texto1").value = "";
     encriptar.disabled = true;
     desencriptar.disabled = true;
-    //duda
 });
 
 let copiar = document.getElementById("copiar");
