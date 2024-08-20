@@ -1,6 +1,6 @@
 function definirClave() {
     let numero1 = Math.floor(Math.random() * 6);  
-    let numero2 = Math.floor(Math.random() * 4)+1; 
+    let numero2 = (Math.floor(Math.random() * 4))+1; 
     let suma = `${numero1} + ${numero2}`; 
     document.getElementById("clave").innerHTML = suma;
     return numero1 + numero2;
