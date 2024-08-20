@@ -3,23 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptador</title>
+    <title>Encrypt</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unkempt&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header class="titulo">
-        <h1>ENCRIP</h1>
+        <h3>Encrypt</h3>
     </header>
     <main class="padreContenedor">
         <section class="contenedor1">
             <textarea id="texto1" class="texto1" placeholder=" Detective introduzca el mensaje secreto"></textarea>
-            <p class="consideraciones">Ingrese solamente letras minusculas, mayusculas o espacios</p>
+            <div class="consideraciones">
+                <img src="Recursos/imagen1.png" alt="importante">
+                <p class="notacion">Ingrese solamente letras minusculas, mayusculas o espacios</p>
+            </div>
             <div class="operacion">
-                <p>Clave secreta de desplazamiento: <span id="clave"></span></p> 
-                <p>Resultado: <input type="number" id="resultadoClave"></p>
+                <p class="desplazamiento">Clave secreta de desplazamiento: <span id="clave"></span></p> 
+                <p>= <input type="number" id="resultadoClave" class="resultado"></p>
             </div>
             <div class="botones">
                 <button id="encriptar" class="encriptar">Encriptar</button>
@@ -28,10 +44,12 @@
         </section>
         <section class="contenedor2">
             <textarea id="texto2" class="texto2"></textarea>
-            <button id="copiar" class="copiar">Copiar</button>
+            <div>
+                <button id="copiar" class="copiar">Copiar</button>
+            </div>
         </section>
     </main>
-    <footer>
+    <footer class="creditos">
         <p>Copyright 2024 - Todos los derechos reservados</p>
         <p>Desarrollado por Libertad Leon</p>
     </footer>

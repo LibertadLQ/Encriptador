@@ -14,7 +14,6 @@ function mensajeEncriptado() {
     console.log(texto1);
     for (let i = 0; i < arrTexto1.length; i++) {
         let defCaracter = arrTexto1[i].charCodeAt(0); 
-        //console.log(defCaracter);
         if(defCaracter >= 65 && defCaracter <= 90){
             textocambiado += String.fromCharCode(((defCaracter - 65 + clave)% 26)+65); 
         } else if (defCaracter >= 97  && defCaracter <=122){
@@ -25,7 +24,6 @@ function mensajeEncriptado() {
         
     }
     document.getElementById("texto2").value = textocambiado;
-    //return textocambiado; 
 };
 
 function mensajeDesencriptado() {
@@ -62,15 +60,15 @@ function validarResultado() {
 };
 
 let T1 = document.getElementById("texto1"); 
-T1.addEventListener("input",function () {//se ejecuta cada que vez que el usuario modifca texto1
+T1.addEventListener("input",function () {
     validarResultado(); 
 });
 let RS = document.getElementById("resultadoClave"); 
 RS.addEventListener("input",function () {
     validarResultado(); 
 });
-let encriptar = document.getElementById("encriptar");//boton encriptar
-encriptar.addEventListener("click", function () {//se ejecuta cuando hagamos click en encrpiptar
+let encriptar = document.getElementById("encriptar");
+encriptar.addEventListener("click", function () {
     mensajeEncriptado(); 
     document.getElementById("texto1").value = "";
     encriptar.disabled = true;

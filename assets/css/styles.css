@@ -1,31 +1,116 @@
 body{
-    background-image: url("../../Recursos/fondo4.jpg");
+    background-image: url("../../Recursos/fondo5.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-family: "Matemasie", sans-serif;
+    text-align: center;
 }
 
 .titulo{
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
+    font-family: "Homemade Apple", cursive;
+    font-size: 40px;
 }
 .padreContenedor{
     display: flex;
 }
+.contenedor1{
+    margin-left: 70px;
+}
+.consideraciones{
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+}
+.consideraciones img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+    align-items: center;
+}
+.notacion{
+    margin-top: 5px;
+    color: rgb(207, 207, 207);
+    font-family: "Unkempt", cursive;
+}
+.operacion{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: "Unkempt", cursive;
+    font-size: 20px;
+}
+.desplazamiento{
+    color: whitesmoke;
+    font-family: "Unkempt", cursive;
+}
+.resultado{
+    width: 30px;
+}
+.botones{
+    display: block;
+}
+.encriptar{
+    background-color: rgba(59, 58, 58, 0.582);
+    font-family: "Great Vibes", cursive;
+    width: 300px;
+    height: 50px;
+    margin-left: 15px;
+    border-radius: 15px;
+    color: white;
+    border: 1px solid white;
+    font-size: 30px;
+}
+.desencriptar{
+    background-color: rgba(59, 58, 58, 0.582);
+    font-family: "Great Vibes", cursive;
+    width: 300px;
+    height: 50px;
+    margin-left: 15px;
+    border-radius: 15px;
+    color: white;
+    border: 1px solid white;
+    font-size: 30px;
+}
+.copiar{
+    background-color: rgba(59, 58, 58, 0.582);
+    font-family: "Great Vibes", cursive;
+    width: 300px;
+    height: 50px;
+    margin-left: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    color: white;
+    border: 1px solid white;
+    font-size: 30px;
+}
+
 .texto1{
+    background: rgba(255, 255, 255, 0.1);
     height: 370px;
     width: 570px;
     border-radius: 24px;
-    background-color: azure;
     padding: 20px;
-    
+    color: antiquewhite;
+    font-size: 23px;
+    font-family: "Unkempt", cursive;
 }
 
 .texto2{
+    background: rgba(255, 255, 255, 0.1);
     height: 370px;
-    width: 570px;
+    width: 470px;
     border-radius: 24px;
-    background-color: azure;
     padding: 20px;
+    font-size: 23px;
     margin-left: 55px;
+    color: antiquewhite;
+    font-family: "Unkempt", cursive;
+}
+
+.creditos{
+    background-color: rgba(59, 58, 58, 0.582);
+    color: beige;
+    font-family: "Unkempt", cursive;
 }
