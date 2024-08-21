@@ -2,7 +2,7 @@ Encrypt/Desencrpty Secret
 Descripción 
 Este proyecto es una pagina web de un encriptador en el que el usuario puede cifrar y descifrar mensajes de texto. 
 
-Características 
+Características:  
 -Solo se permiten letras mayuculas, minusculas o espacios. 
 -El usurio debe de resolver una suma correctamente. 
 -Implementacion del cifrado mediante bucles, números random, charCodeAt y String.fromCodeAt.
