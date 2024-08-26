@@ -1,6 +1,6 @@
 <h1>Encrypt/Desencrpty Secret</h1>
 <b>Descripción</b> 
-<p>Este proyecto es una pagina web de un encriptador en el que el usuario puede cifrar y descifrar mensajes de texto.<p> 
+<p>Este proyecto es una página web acerca de un encriptador en el que el usuario puede cifrar y descifrar mensajes de texto.<p> 
 <b>Características:</b>  
   <ul>
     <li>Solo se permiten letras mayuculas, minusculas o espacios.</li> 
