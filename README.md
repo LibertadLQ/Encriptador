@@ -1,4 +1,4 @@
-Encrypt/Desencrpty Secret
+<h1>Encrypt/Desencrpty Secret</h1>
 <b>Descripción</b> 
 Este proyecto es una pagina web de un encriptador en el que el usuario puede cifrar y descifrar mensajes de texto. 
 
